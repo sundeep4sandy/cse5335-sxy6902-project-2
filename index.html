@@ -1,0 +1,32 @@
+<html>
+<head>
+<script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js" ></script>  
+<script src="https://code.angularjs.org/1.5.0/angular-resource.min.js"></script>
+<script src="app.js"></script>
+<script src="main.ctrl.js"></script>
+
+
+
+</head>
+<body ng-app='myApp' ng-controller="MainController">
+<button ng-click="getData()" >
+  Get data
+</button>
+
+<table border="1" >
+<tr>
+<th>id</th>
+<th>CITY</th>
+
+  <tr ng-repeat="x in checked">
+    <td>{{ x.id }}</td>
+    <td>{{ x.city }}</td>
+    
+  </tr>
+</table>
+  <div >
+        
+    </div>
+
+</body>
+</html>

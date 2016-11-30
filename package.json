@@ -1,0 +1,20 @@
+{
+  "name": "sundeep4sandy",
+  "version": "1.0.0",
+  "description": "node js package",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "pg": "^6.1.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "demo"
+  ],
+  "author": "NPM DEMO USER <sandeep.yerramsetti@mavs.uta.edu>",
+  "license": "ISC"
+}
